@@ -2,7 +2,7 @@
 
 ```
 # docker build -t openresty .
-# docekr run -it -d -p 8888:80 --name lua_api -h lua_api -v "$PWD/lua":/opt/lua openresty
+# docker run -it -d -p 8888:80 --name lua_api -h lua_api -v "$PWD/lua":/opt/lua openresty
 # curl 127.0.0.1:8888/api/v1/hello
 Hello, World!
 ```
